@@ -36,3 +36,9 @@
 	<li>amaysim_shopping_cart> sc.items</li>
 	<li>amaysim_shopping_cart> sc.total</li>
 </ul>
+<hr>
+To run test features 
+<ul>
+	<li>amaysim_shopping_cart> irb test_shopping_cart.rb</li>
+</ul>	
+
