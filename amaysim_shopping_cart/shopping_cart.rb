@@ -26,9 +26,9 @@ class ShoppingCart
 				@total_purchased = @total_purchased - discount
 			end
 
-			puts "Total price purchased: $#{@total_purchased.round(2)}"
+			return "Total price purchased: $#{@total_purchased.round(2)}"
 		else
-			puts "Check Items first to see total purchase."
+			return "Check Items first to see total purchase."
 		end
 	end
 
